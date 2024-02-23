@@ -7,7 +7,7 @@ spec:
  selector:
    app: fronted
  ports:
- - nodePort: 32410
+ - nodePort: 32415
    protocol: TCP
    port: 3000
    targetPort: 3000
