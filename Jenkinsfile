@@ -4,7 +4,7 @@
  stage("clonig the url"){
  steps{
  script{
-  sh'git clone github.com/venkat0007/helm-frontend.git -b main'
+  sh'git clone https://github.com/venkat0007/helm-frontend.git -b main'
   }
   }
   }
